@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
         <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
@@ -21,12 +23,155 @@
             <option value="1">Terrible</option>
         </select>
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: "Choisissez votre note",
+    });
+  </script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img class="Logo" src="img/icônes/Vector.png" alt="Logo LivroNote">
+    <h1 class="titre"> LivroNote </h1>
+  </div>
+  <hr />
+  <div class="burger">
+    <img src="img/icônes/burger-bar.png" alt="Logo Menu burger">
+  </div>
+  <img class="couverture" src="img/couvertures/origines_couverture.jpg"
+    alt=" Couverture du livre Origines de Laurence Sunher">
+  <div class="notation">
+    <select class="star-rating" aria-label="Note utilisateur">
+      <option value="">Select a rating</option>
+      <option value="5">Excellent</option>
+      <option value="4">Very Good</option>
+      <option value="3">Average</option>
+      <option value="2">Poor</option>
+      <option value="1">Terrible</option>
+    </select>
+  </div>
+  <p class="titrelivre"> Origines </p>
+  <p class="autrice"> Laurence Sunher </p>
+  <div class="resumeensemble">
+    <p class="titreresume"> Résumé : </p>
+    <p class="resume">À l’aide d’un astronef de la milice, Ambre et ses compagnons
+      ont pénétré les défenses du Grand
+      Arc,
+      Kalaân l’Ancien, et ils ont atterri à son bord. Pour les scientifiques, la
+      surprise est totale : forêt primaire et
+      océan à perte de vue...
+    </p>
+  </div>
+  <div class="notepersonnelmargenegatif">
+    <div class="notepersonnelensemble ">
+      <h2 class="notepersonnel"> Note Personnel : </h2>
+      <div class="notation">
+        <select class="star-rating" aria-label="Note utilisateur">
+          <option value="">Select a rating</option>
+          <option value="5">Excellent</option>
+          <option value="4">Very Good</option>
+          <option value="3">Average</option>
+          <option value="2">Poor</option>
+          <option value="1">Terrible</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="avis">
+    <h3 class="titreavis"> Avi(s) :</h3>
+    <div class="carteensemble">
+      <img class="pfp" src="img/icônes/Xim.png" alt="Photo de profile user 1">
+      <div class="notenom">
+        <div class="notationpetit">
+          <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+          </select>
+        </div>
+        <p class="nomutilisateur"> Ximouille_37</p>
+      </div>
+      <p class="commentaire"> Je dit oui !</p>
+    </div>
+    <div class="carteensemble">
+      <img class="pfp" src="img/icônes/Norman.png" alt="Photo de profile user 2">
+      <div class="notenom">
+        <div class="notationpetit">
+          <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+          </select>
+        </div>
+        <p class="nomutilisateur"> Le_sniper69 </p>
+      </div>
+      <p class="commentaire"> Y’a pas d’enfant :( </p>
+    </div>
+    <div class="carteensemble">
+      <img class="pfp" src="img/icônes/LeT.png" alt="Photo de profile user 3">
+      <div class="notenom">
+        <div class="notationpetit">
+          <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+          </select>
+        </div>
+        <p class="nomutilisateur"> Tiliotiste_</p>
+      </div>
+      <p class="commentaire"> J’adore surtout la page
+        de napoléon !</p>
+    </div>
+  </div>
+  <div class="plusplus">
+    <p class="plus"> Voir plus </p>
+  </div>
+  <div class="ensemblebottomfond">
+    <div class="ensemblebottom">
+      <img class="home" src="img/icônes/Vector2.png" alt=" Logo Menu">
+      <img class="loupe" src="img/icônes/Vector3.png" alt=" Logo Recherche">
+      <img class="livre" src="img/icônes/Vector4.png" alt=" Logo Livre">
+      <img class="profil" src="img/icônes/Vector5.png" alt=" Logo profil">
+    </div>
+  </div>
+  <!-- 🦊 Votre page ici -->
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le
+  système de note Javascript -->
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: false,
+    });
+  </script>
+</body>
+
 </html>
